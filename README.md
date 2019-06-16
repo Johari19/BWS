@@ -1,5 +1,4 @@
-# BWS
-## Basic Web-scraper
+# Basic Web-scraper
 
 This application will scrape static sites for info depending on user input!
 
