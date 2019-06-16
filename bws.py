@@ -12,7 +12,7 @@ print("Some websites don't allow this script to work!\n")
 
 # Variables
 while True:
-    url = str(input("\nEnter url of the site you would like to scrape (USE: https://websitename.com): "))
+    url = str(input("\nEnter url of the site you would like to scrape (USE: https://www.websitename.com): "))
     print('Grabbing html file of {0}'.format(url))
     raw_html = get_URL(url)
     html = BeautifulSoup(raw_html, 'html.parser')
