@@ -6,6 +6,12 @@ Things needed:
 - Python 3.x
 - Thats it!
 
+Once downloaded:
+- Open bws.py
+- Paste url
+- Inspect element the info that you want on the page
+- Input element and class
+
 My script auto installs and imports modules needed to scrape the web!
 Have fun!
 
