@@ -47,7 +47,6 @@ print("\nI found:")
 while True:
     raw_html = get_URL(url)
     html = BeautifulSoup(raw_html, 'html.parser')
-    req = req + 1
     for element in html.select(foo):
         eltext = element.get_text()
         print(eltext, end="\r")
