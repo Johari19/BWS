@@ -10,7 +10,6 @@ print("This is a looping variants of the original scraper!")
 print("Use this for things like stocks, time and etc.")
 print("Sometimes this does not work as the website has a static value for the element\n")
 # Variables
-
 url = str(input("Enter url of the site you would like to scrape (USE: https://www.websitename.com): "))
 if not url:
     log_error('Empty url/formatted incorrectly')
@@ -48,7 +47,8 @@ print("\nI found:")
 while True:
     raw_html = get_URL(url)
     html = BeautifulSoup(raw_html, 'html.parser')
+    req = req + 1
     for element in html.select(foo):
         eltext = element.get_text()
         print(eltext, end="\r")
-    time.sleep(1)
+    time.sleep(1.25)
