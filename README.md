@@ -15,4 +15,13 @@ Once downloaded:
 My script auto installs and imports modules needed to scrape the web!
 Have fun!
 
+There are two variants:
+1. mainbws.py
+	- Is an ordinary web-scraper
+2. loopbws.py
+	- It loops continuously, updating the text on screen!
+	- Can be used for stocks!
+
+Use mainbws.py first to get a feel for the script!
+
 ### NOTE: I AM NOT RESPONSIBLE FOR ANY INFORMATION BEING SCRAPE OFF THE WEB! SCRAPE AT YOUR OWN DISCRETION!!!!
