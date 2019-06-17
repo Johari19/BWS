@@ -13,8 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.2.0] - 2019-06-17
 ### Added
 - Looping webscraping script
-- Request limit
-- Sys module
+- Request limit (loopbws.py)
+- Sys module (loopbws.py)
 
 ### Changed
 - Certain messages in console
@@ -23,3 +23,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Errors from error logger
 - .gitignore
 - Bug fixes of loopbws.py
+
+## [0.2.1] - 2019-06-17
+### Added
+- Current time of refresh (loopbws.py)
+
+### Fixed
+- Random url errors
