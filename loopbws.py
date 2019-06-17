@@ -9,6 +9,7 @@ print("Script made by: https://github.com/Johari19\n")
 print("This is a looping variants of the original scraper!")
 print("Use this for things like stocks, time and etc.")
 print("Sometimes this does not work as the website has a static value for the element\n")
+print("NOTE: TOO MANY REQUESTS IN A GIVEN TIME PERIOD MAY LEAD TO BEING IP BANNED!")
 # Variables
 url = str(input("Enter url of the site you would like to scrape (USE: https://www.websitename.com): "))
 if not url:
