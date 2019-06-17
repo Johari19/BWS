@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.5] - 2019-06-16
 ### Added
-- Main web scraping features
+- Main webscraping features
 - Error logger
 - Choice between classes and ids
+
+## [0.2.0] - 2019-06-17
+### Added
+- Looping webscraping script
+- Request limit
+- Sys module
+
+### Changed
+- Certain messages in console
+
+### Fixed
+- Errors from error logger
+- .gitignore
+- Bug fixes of loopbws.py
