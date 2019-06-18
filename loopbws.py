@@ -44,6 +44,11 @@ else:
     foo = element + sign + atr;
 
 # Script
+f = open('value.csv', 'w')
+writer = csv.writer(f)
+writer.writerow(['Timestamp', 'Value'])
+f.close()
+print("I'm saving all the values in an easily formatable .csv file! Check value.csv")
 print("\nI found:")
 while True:
     timestamp = str(datetime.now())
@@ -51,5 +56,10 @@ while True:
     html = BeautifulSoup(raw_html, 'html.parser')
     for element in html.select(foo):
         eltext = element.get_text()
+        f = open('value.csv', 'a')
+        writer = csv.writer(f)
+        writer.writerow([timestamp, eltext])
+        f.close()
         print('[' + timestamp + '] ' + eltext, end="\r")
+
     time.sleep(1.25) # <---- DO NOT REMOVE! IF REMOVED, USER MAY RISK IP BAN FROM WEBSITE!
