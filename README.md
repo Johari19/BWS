@@ -21,6 +21,7 @@ There are two variants:
 2. loopbws.py
 	- It loops continuously, updating the text on screen!
 	- Can be used for stocks!
+	- Current time and value is automatically appended to value.csv
 
 Use mainbws.py first to get a feel for the script!
 
