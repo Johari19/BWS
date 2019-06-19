@@ -18,7 +18,6 @@ if not url:
 else:
     #nothing
     time.sleep(.2)
-print('\nGrabbing html file of {0}'.format(url))
 choice = input("\nWould you like to use 1. Class 2. ID: ")
 sign = ''
 
