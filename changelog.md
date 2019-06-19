@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Random url errors
 
-## [0.3.2] - 2019-06-18
+## [0.3.0] - 2019-06-18
 ### Added
 - Added csv functionality (loopbws.py)
 - Timestamps and value to .csv
