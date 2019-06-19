@@ -4,7 +4,7 @@ from wsfunc import *
 
 # Text
 print("----------------------------------------")
-print("Basic Web Scraper (BWS) by Johari19\n")
+print("Basic Web Scraper (BWS) by Joseph Ambayec\n")
 print("Script made by: https://github.com/Johari19\n")
 print("This script allows you to scrape info off the web using elements, classes and ids!")
 print("Javascript is not working currently!\n")

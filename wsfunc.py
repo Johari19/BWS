@@ -3,6 +3,7 @@ from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
 import time
+import csv
 from datetime import datetime
 if __name__ == "__main__":
     print("DO NOT RUN THIS SCRIPT! IT DOES NOTHING")
@@ -36,6 +37,7 @@ else:
 
 
 
+    #def csv_write():
 
 
     def pause():
