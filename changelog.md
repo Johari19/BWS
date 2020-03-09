@@ -39,3 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Missing errors
+
+## [0.3.1] - 2020-03-09
+### Fixed
+- Bad Grammar

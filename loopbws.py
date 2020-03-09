@@ -6,9 +6,9 @@ from wsfunc import *
 print("----------------------------------------")
 print("Basic Web Scraper (BWS) by Joseph Ambayec\n")
 print("Script made by: https://github.com/Johari19\n")
-print("This is a looping variants of the original scraper!")
+print("This is a looping variant of the original scraper!")
 print("Use this for things like stocks, time and etc.")
-print("Sometimes this does not work as some websites have a static values!\n")
+print("Sometimes this does not work as some websites have static values!\n")
 
 # Variables
 url = str(input("Enter url of the site you would like to scrape (USE: https://www.websitename.com): "))
@@ -18,7 +18,7 @@ if not url:
 else:
     #nothing
     time.sleep(.2)
-choice = input("\nWould you like to use 1. Class 2. ID: ")
+choice = input("\nWould you like to use 1)Class 2)ID: ")
 sign = ''
 
 if choice == '1':
